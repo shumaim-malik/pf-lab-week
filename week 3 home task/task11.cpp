@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std ;
+
+main()
+{
+	cout <<" Enter the age of person : ";
+	int age;
+	cin >>age;
+
+	cout <<" Enter the number of time they moved : ";
+	int moved;
+	cin>>moved;
+
+	int average=age/(moved+1);
+
+	cout <<" The  average number of year lived in the same house is : "<<average;
+
+}
